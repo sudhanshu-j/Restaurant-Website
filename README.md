@@ -2,7 +2,7 @@
 
 Overview
 
-This project is a fully responsive restaurant website created using HTML, CSS, and JavaScript. It showcases the restaurant's menu, ambiance, and services, providing an engaging user experience.
+This project is a fully responsive restaurant website created using HTML, CSS, JavaScript, and Swiper CDNJS for the image slider functionality. It showcases the restaurant's menu, ambiance, and services, providing an engaging user experience.
 Features
 
     Responsive Design: Optimized for various devices including desktops, tablets, and mobile phones.
@@ -14,6 +14,7 @@ Technologies Used
     HTML: Provides the basic structure of the website.
     CSS: Used for styling the website to create a visually appealing interface.
     JavaScript: Adds interactivity and dynamic behavior to the website.
+    Swiper CDNJS: Used for creating responsive and touch-friendly sliders.
 
 Setup and Installation
 
@@ -26,6 +27,33 @@ To run this project locally, follow these steps:
           cd restaurant-website
 
     3.Open the index.html file in your web browser
+
+Usage
+
+    To use Swiper for the image gallery, include the Swiper CSS and JS files in your index.html:
+
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> 
+       
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    Initialize Swiper in your script.js:
+
+       <script>
+      var swiper = new Swiper(".home-slider", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 7500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        loop: true,
+      });
+    </script>
+
 
 File Structure:
 
