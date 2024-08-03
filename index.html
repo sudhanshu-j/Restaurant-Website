@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/crown-symbol.png" />
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Title -->
+    <title>Restaurant Website</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <a href="#" class="logo">
+        <img src="/images/logo.png" alt="logo" width="100px" />
+      </a>
+
+      <nav class="navbar" id="navigation">
+        <a href="#home" class="active">home</a>
+        <a href="#about">about</a>
+        <a href="#menu-section">menu</a>
+        <a href="#team">team</a>
+        <a href="#booking">reservation</a>
+        <a href="#blog">blog's</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fa-solid fa-bars" id="menu"></i>
+        <i class="fa-solid fa-search"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </header>
+
+    <div class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide slide slide1">
+            <div class="content">
+              <img src="/images/crown-symbol.png" alt="image-1" />
+              <h3>Indian Tandoor</h3>
+              <h1>Indian Flavours</h1>
+              <p>
+                our restaurant offers a wide variety of indian dishes
+                <br />
+                with the best indian cuisine
+              </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide slide slide2">
+            <div class="content">
+              <img src="/images/crown-symbol.png" alt="image-1" />
+              <h3>Indian Tandoor</h3>
+              <h1>100% Indian Spices</h1>
+              <p>
+                our restaurant offers a wide variety of indian spices
+                <br />
+                to make best indian cuisine
+              </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide slide slide3">
+            <div class="content">
+              <img src="/images/crown-symbol.png" alt="image-1" />
+              <h3>Indian Tandoor</h3>
+              <h1>Fresh Fruit Juice</h1>
+              <p>
+                our restaurant offers a wide variety of fresh juices
+                <br />
+                to enjoy with your meals
+              </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide slide slide4">
+            <div class="content">
+              <img src="/images/crown-symbol.png" alt="image-1" />
+              <h3>Indian Tandoor</h3>
+              <h1>Various Beverages</h1>
+              <p>
+                our restaurant offers a wide variety of Beverages
+                <br />
+                to enjoy with your meals
+              </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- about -->
+
+    <section class="welcome" id="about">
+      <h1 class="heading">Welcome to Indian Tandoor</h1>
+
+      <center class="sub-heading">~ Luxury & Quality ~</center>
+
+      <div class="box-container">
+        <!-- Box 1 -->
+        <div class="box">
+          <div class="image">
+            <img src="/images/post-thumb-1.jpg" alt="about-image1" />
+          </div>
+          <div class="content">
+            <h3>Professional Level</h3>
+            <p>
+              Our professional chefs bring passion, expertise, and creativity to
+              every dish, ensuring an exceptional culinary experience for our
+              guests.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="box">
+          <div class="image">
+            <img src="/images/post-thumb-2.jpg" alt="about-image1" />
+          </div>
+          <div class="content">
+            <h3>Fresh Food Guaranteed</h3>
+            <p>
+              Our dishes are crafted with the freshest vegetables, ensuring
+              vibrant flavors, optimal nutrition, and a delightful dining
+              experience.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="box">
+          <div class="image">
+            <img src="/images/post-thumb-3.jpg" alt="about-image1" />
+          </div>
+          <div class="content">
+            <h3>The Menu Is Plentiful</h3>
+            <p>
+              Our menu features a diverse selection of dishes, from classic
+              favorites to innovative creations, all crafted with the finest
+              ingredients.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu -->
+
+    <section class="menu" id="menu-section">
+      <h1 class="heading">Our Menu</h1>
+      <center class="sub-heading">~ Our Delicious Dishes ~</center>
+
+      <div class="menu-container">
+        <!-- Menu Item 1 -->
+        <div class="menu-item">
+          <div class="item-name">
+            <h2>Royal Salad</h2>
+            <img src="/images/soups-and-salads.png" alt="" />
+          </div>
+
+          <div class="item-body">
+            <div class="item-list">
+              <h3>Super Delicious Khamang Kakdi</h3>
+              <span class="dots"> </span>
+              <h3>₹800</h3>
+
+              <ul>
+                <li>chopped cucumber</li>
+                <li>roasted peanuts</li>
+                <li>grated coconut</li>
+                <li>lemon juice</li>
+                <li>salt, sugar and spices</li>
+              </ul>
+            </div>
+
+            <div class="item-list">
+              <h3>Super Delicious Vegetable Salad</h3>
+              <span class="dots"> </span>
+              <h3>₹900</h3>
+
+              <ul>
+                <li>chopped tomatoes</li>
+                <li>chopped onions</li>
+                <li>chopped cucumber</li>
+                <li>grated carrots</li>
+                <li>avocado</li>
+              </ul>
+            </div>
+
+            <div class="item-list">
+              <h3>Super Delicious Sprouted Salad</h3>
+              <span class="dots"> </span>
+              <h3>₹750</h3>
+
+              <ul>
+                <li>Mung Bean Sprouts</li>
+                <li>onions, tomatoes and green chillies</li>
+                <li>chilli powder, chaat masala and lemon juice</li>
+                <li>coriander leaves</li>
+                <li>salt and lemon slices</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="menu-item">
+          <div class="item-name">
+            <h2>North Indian Cuisine</h2>
+            <img src="/images/notify.png" alt="" />
+          </div>
+
+          <div class="item-body">
+            <div class="item-list">
+              <h3>Super Delicious Machher Jhol</h3>
+              <span class="dots"> </span>
+              <h3>₹1000</h3>
+
+              <ul>
+                <li>Fish Steaks and Cauliflower</li>
+                <li>Onion, tomato, Ginger and Garlic</li>
+                <li>Turmeric, Kashmiri Chilli, Cumin and Coriander</li>
+                <li>Green Chilli</li>
+                <li>Sugar and Salt</li>
+              </ul>
+            </div>
+
+            <div class="item-list">
+              <h3>Super Delicious Chole bhature</h3>
+              <span class="dots"> </span>
+              <h3>₹550</h3>
+
+              <ul>
+                <li>Chick peas</li>
+                <li>turmeric, red chilli, Coriander, hing Powder</li>
+                <li>Garam Masala or chole masala</li>
+                <li>onion, tomatoes, ginger, garlic and green chili</li>
+              </ul>
+            </div>
+
+            <div class="item-list">
+              <h3>Super Delicious Kadai paneer</h3>
+              <span class="dots"> </span>
+              <h3>₹800</h3>
+
+              <ul>
+                <li>garam masala, kashmiri red chili powder</li>
+                <li>butter, onion, green chili and ginger garlic paste</li>
+                <li>ginger, heavy cream, salt and sugar</li>
+                <li>paneer, kasuri methi and cilantro</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="menu-item">
+          <div class="item-name">
+            <h2>South Indian Cuisine</h2>
+            <img src="/images/notify.png" alt="" />
+          </div>
+
+          <div class="item-body">
+            <div class="item-list">
+              <h3>Super Delicious Biryani</h3>
+              <span class="dots"> </span>
+              <h3>₹1200</h3>
+
+              <ul>
+                <li>Chicken (thighs, drumsticks, or boneless breast)</li>
+                <li>Basmati rice Onions, Garlic and Ginger</li>
+                <li>
+                  Yogurt, Lemon juice, Ginger-garlic paste and Garam masala
+                </li>
+                <li>Vegetable oil and Kosher salt or regular salt</li>
+              </ul>
+            </div>
+
+            <div class="item-list">
+              <h3>Super Delicious Chicken Tikka Masala</h3>
+              <span class="dots"> </span>
+              <h3>₹900</h3>
+
+              <ul>
+                <li>Chicken, yogurt, heavy cream and butter</li>
+                <li>cumin, coriander, cayenne pepper, garam masala</li>
+                <li>Rich, creamy, slightly spicy, aromatic</li>
+                <li>garlic, ginger, onions, tomato puree</li>
+              </ul>
+            </div>
+
+            <div class="item-list">
+              <h3>Super Delicious Mutton Curry</h3>
+              <span class="dots"> </span>
+              <h3>₹1500</h3>
+
+              <ul>
+                <li>Goat meat (also known as mutton)</li>
+                <li>Onions, Garlic, Ginger, Garlic and Ginger paste</li>
+                <li>Garam masala, Coriander, Cumin and Turmeric powder</li>
+                <li>Vegetable oil (such as canola or sunflower oil)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 4 -->
+        <div class="menu-item">
+          <div class="item-name">
+            <h2>Fresh Fruit Juice & Beverages</h2>
+            <img src="/images/drinks.png" alt="" />
+          </div>
+
+          <div class="item-body">
+            <div class="item-list">
+              <h3>Super Delicious Watermelon Lychee Granite Juice</h3>
+              <span class="dots"> </span>
+              <h3>₹150</h3>
+
+              <ul>
+                <li>watermelon</li>
+                <li>ginger</li>
+                <li>mint leaves</li>
+                <li>lemon</li>
+                <li>lychee</li>
+              </ul>
+            </div>
+
+            <div class="item-list">
+              <h3>Super Delicious Very Berry Khatta Juice</h3>
+              <span class="dots"> </span>
+              <h3>₹200</h3>
+
+              <ul>
+                <li>mulberries</li>
+                <li>lime</li>
+                <li>orange</li>
+                <li>grape juice</li>
+                <li>kala khatta</li>
+              </ul>
+            </div>
+
+            <div class="item-list">
+              <h3>Super Delicious Ananas Da Panna Juice</h3>
+              <span class="dots"> </span>
+              <h3>₹800</h3>
+
+              <ul>
+                <li>pineapple pulp</li>
+                <li>cumin powder</li>
+                <li>black salt</li>
+                <li>lime juice</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- team  -->
+
+    <section class="team" id="team">
+      <h1 class="heading">Our Team</h1>
+      <center class="sub-heading">~ Meet Our Expert Team ~</center>
+
+      <div class="our-chef">
+        <div class="item">
+          <div class="chef-image">
+            <img class="img" src="/images/our-chef-1.jpg" alt="" />
+          </div>
+
+          <div class="chef-info">
+            <div>
+              <h3>Aditi Musunur</h3>
+              <span>Master Chef(Salad and Soups)</span>
+
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="chef-image">
+            <img class="img" src="/images/our-chef-2.jpg" alt="" />
+          </div>
+
+          <div class="chef-info">
+            <div>
+              <h3>Mitali Jayadev</h3>
+              <span>Master Chef(North Indian Cuisine)</span>
+
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="chef-image">
+            <img class="img" src="/images/our-chef-3.jpg" alt="" />
+          </div>
+
+          <div class="chef-info">
+            <div>
+              <h3>Debasis Sundhararajan</h3>
+              <span>Master Chef(South Indian Cuisine)</span>
+
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking -->
+
+    <section class="booking" id="booking">
+      <div class="booking-img"></div>
+
+      <div class="booking-form">
+        <h1 class="heading">Book a Table</h1>
+        <center class="sub-heading">~ Make Your Dining ~</center>
+
+        <form>
+          <div class="form-wrapper">
+            <div>
+              <select>
+                <option>Book a Table for 1 People</option>
+                <option>Book a Table for 2 People</option>
+                <option>Book a Table for 3 People</option>
+                <option>Book a Table for 4 People</option>
+              </select>
+
+              <input type="text" name="" placeholder="Time" required />
+              <input type="text" name="" placeholder="phone" required />
+            </div>
+
+            <div>
+              <input type="text" name="" placeholder="Date" required />
+              <input type="text" name="" placeholder="Name" required />
+              <input type="email" name="" placeholder="Email" required />
+            </div>
+          </div>
+
+          <center>
+            <a href="#" class="btn">Book Now</a>
+          </center>
+        </form>
+      </div>
+    </section>
+
+    <!-- Blog -->
+
+    <section class="blog welcome" id="blog">
+      <h1 class="heading">Our Blog</h1>
+      <center class="sub-heading">~ Read Our Latest Articles ~</center>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image blog-img">
+            <img src="/images/post-thumb-4.jpg" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Best in Town</h3>
+            <p>
+              Voted best in town, [Indian Tandoor] offers unparalleled flavors,
+              impeccable service, and and a delightful dining experience that
+              stands out.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+            <img class="post-body-img-1" src="/images/apple.png" alt="" />
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image blog-img">
+            <img src="/images/post-thumb-5.jpg" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Freshness Never Lies</h3>
+            <p>
+              Indian Tandoor's dishes are crafted with the freshest vegetables,
+              ensuring vibrant flavors, optimal nutrition, and a delightful
+              dining experience.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+            <img class="post-body-img-2" src="/images/onion.png" alt="" />
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image blog-img">
+            <img src="/images/post-thumb-6.jpg" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Explore Foods</h3>
+            <p>
+              Indian Tandoor offers the best food in town, combining fresh
+              ingredients, expert chefs, and unique flavors for an unmatched
+              dining experience.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+            <img class="post-body-img-3" src="/images/garlic.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <img src="/images/logo.png" alt="" class="logo" width="140px" />
+
+      <div class="container">
+        <div>
+          <h3>About Us</h3>
+          <p>
+            Welcome to [Indian Tandoor], where authentic flavors, fresh
+            ingredients, and warm hospitality come together to create a
+            memorable dining experience.
+          </p>
+        </div>
+
+        <div>
+          <h3>Get News & Offers</h3>
+          <input type="email" placeholder="Enter your email" />
+
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact Us</h3>
+          <span> Address: 123 Main Street, City, State, ZIP Code</span>
+          <span>(123) 456-7890</span>
+          <span>info@example.com</span>
+          <span>www.example.com</span>
+        </div>
+      </div>
+
+      <p class="copyright">
+        &copy; 2024 All Rights Reserved. Designed by
+        <a href="#">Sudhanshu Jha</a>
+      </p>
+    </section>
+
+    <!-- Top Button -->
+
+    <a href="#">
+      <button class="topbtn">
+        <i class="fa-solid fa-angle-up"></i>
+      </button>
+    </a>
+
+    <!-- Swiper JS -->
+    <
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".home-slider", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 7500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        loop: true,
+      });
+    </script>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
