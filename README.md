@@ -33,9 +33,9 @@ This project is a fully responsive restaurant website created using **HTML**, **
       ```
 
 2. **Navigate to the project directory:**
-       ```bash
+     ```bash
        cd restaurant-website
-       ```
+     ```
 
 4. **Open the index.html file in your web browser**
 
