@@ -4,6 +4,10 @@
 
 This project is a fully responsive restaurant website created using **HTML**, **CSS**, **JavaScript**, and **Swiper CDNJS** for image slider functionality. It showcases the restaurant's menu, ambiance, and services, providing an engaging user experience.
 
+## Live Demo 
+
+🔴 [Live Demo](https://resto-one.netlify.app)
+
 ## Features
 
 - **Responsive Design**: Optimized for various devices, including desktops, tablets, and mobile phones.
